@@ -1,0 +1,13 @@
+Quelques liens pratiques pour le HTML 5
+
+Commençons par de la documentation :
+
+Documentation officielle du W3C ;
+Le site w3school (non officiel) donne une documentation en anglais des balises ;
+Le site StartYourDev (non officiel) donne une documentation en français des balises.
+
+Le site JSBin propose un éditeur de type WYSIWYG à l'adresse suivante :
+http://jsbin.com/?html,output
+
+Il est également utile de disposer d'un générateur de texte aléatoire afin d'effectuer la mise en page d'un site quand la rédaction du contenu n'est pas encore terminée :
+http://fr.lipsum.com

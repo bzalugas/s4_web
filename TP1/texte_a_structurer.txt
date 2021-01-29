@@ -1,0 +1,38 @@
+Structurer un texte
+Faire ressortir les mots clés d'un texte
+Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+Il ne faut pas dire "It's often raining here" mais "It often rains here".
+Les listes
+Les listes non ordonnées
+En utilisant les balises <ul></ul>, il est possible de créer des listes non ordonnées :
+Une baguette
+Quelques pommes
+Des endives
+Les listes ordonnées
+En utilisant les balises <ol></ol>, il est possible de créer des listes ordonnées :
+Démonter le châssis
+Dévisser l'élément a
+Le remplacer
+Refermer le châssis
+Imbriquer des listes
+Il est possible d'imbriquer tout type de liste :
+Démonter le châssis
+Utiliser un tournevis cruciforme
+Attention à ne pas rayer la peinture
+Dévisser l'élément en mauvais état
+Le remplacer
+Refermer le châssis
+Replacer la face avant
+Replacer la face arrière
+Les listes de définitions
+Il est possible d'utiliser les balises <dl>, <dt> et <dd> afin de définir des termes :
+Web
+Système donnant accès aux ressources d’Internet et permettant la recherche et la visualisation de documents hypertextes et hypermédias.
+Internet
+Regroupement international de réseaux informatiques.
+Maths élémentaires
+La variable y est fonction des variables x1, x2 et x3 :
+y = x12 + x24 + x35
+Appuyez sur les touches Alt + R pour résoudre l'équation.
+Appuyez sur les touches Ctrl + Q pour quitter le programme.
+Copyright Université René Descartes©
