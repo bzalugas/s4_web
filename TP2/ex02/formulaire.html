@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Formulaire</title>
         <meta charset="utf-8">
@@ -14,8 +14,8 @@
                 <label for="prenom">Prénom : </label>
                 <input type="text" id="prenom" name="prenom" size="27" maxlength="30" placeholder="Ex. René" required>
                 <br>
-                <label for=civilite>Civilité : </label>
-                <select name="sexe">
+                <label for="sexe">Civilité : </label>
+                <select name="sexe" id="sexe">
                     <option value="m" selected>M.</option>
                     <option value="mme">Mme.</option>
                     <option value="mlle">Mlle.</option>
@@ -37,8 +37,8 @@
                 <label for="moyen">Moyen</label><br>
                 <input type="radio" id="bon" name="niveau" value="bon">
                 <label for="bon">Bon</label><br>
-                <input type="radio" id="tres bon" name="niveau" value="tres bon">
-                <label for="tres bon">Très bon</label><br>
+                <input type="radio" id="tres_bon" name="niveau" value="tres bon">
+                <label for="tres_bon">Très bon</label><br>
 
                 <br>Vous avez des compétences en : <br>
                 <input type="checkbox" id="c" name="competences" value="c">
@@ -47,7 +47,7 @@
                 <label for="c++">C++</label><br>
                 <input type="checkbox" id="java" name="competences" value="java">
                 <label for="java">Java</label><br>
-                <input type="checkbox" id="caml"name="competences" value="Caml">
+                <input type="checkbox" id="caml" name="competences" value="Caml">
                 <label for="caml">Caml</label><br>
 
                 <label for="autres">Autres compétences : </label>
@@ -61,7 +61,7 @@
                 <input type="color" id="couleur" name="couleur">
                 <br>
                 <label for="cv">Joindre votre CV au formulaire : </label>
-                <input type="file" id="file" name="file">
+                <input type="file" id="cv" name="file">
                 <br>
                 <label for="type">Type de fichier : </label>
                 <input type="text" name="type" id="type" list="types" value="PDF">
@@ -75,9 +75,9 @@
                 </datalist>
                 <br>
                 <label for="lang">Langue parlée : </label><br>
-                <select name="lang">
+                <select name="lang" id="lang">
                     <optgroup label="Langues vivantes">
-                        <optiLes champs nom, prénom, e-mail et mot de passe devront être obligatoires.on value="fr">Français</option>
+                        <option value="fr">Français</option>
                         <option value="esp">Espagnol</option>
                         <option value="all">Allemand</option>
                         <option value="it">Italien</option>
