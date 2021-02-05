@@ -1,0 +1,47 @@
+@font-face{
+    font-family: 'courier_prime';
+    src:    url('font/courier-prime-webfont/courier_prime_bold-webfont.ttf') format('truetype'),
+            url('font/courier-prime-webfont/courier_prime-webfont.woff') format('woff'),
+            url('font/courier-prime-webfont/courier_prime-webfont.woff2') format('woff2'),
+            url('font/courier-prime-webfont/courier_prime_bold-webfont.svg') format('svg');
+}
+*
+{
+    font-family:  'courier_prime', Georgia, 'Times New Roman', Times, serif;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.italic
+{
+    font-style: italic;
+}
+.bold
+{
+    font-weight: bold;
+}
+.center
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+}
+.signature
+{
+    text-align: right;
+}
+.imgfloat
+{
+    float: left;
+}
+.stopfloat
+{
+    clear: both;
+}
