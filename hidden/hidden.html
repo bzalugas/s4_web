@@ -7,19 +7,33 @@
     </head>
     <body>
         <h1>Hidden page of my website</h1>
-        <form method="post" action="hidden.php">
-            <fieldset class="center">
+        <form method="post" action="hidden.php" class="center">
+            <fieldset class="bord">
                 <legend>Connexion</legend>
-                <label for="pseudo">Pseudo : </label>
-                <input type="text" id="pseudo" name="pseudo" maxlength="30" value="anonymous" autofocus>
+                <table>
+                    <tr>
+                        <td class="register">
+                            <label for="pseudo">Pseudo : </label>
+                        </td>
+                        <td>
+                            <input type="text" id="pseudo" name="pseudo" maxlength="30" value="anonymous" autofocus>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="register">
+                            <label for="pass">Password : </label>
+                        </td>
+                        <td>
+                            <input type="password" id="pass" name="pass" value="1234">
+                        </td>
+                    </tr>
+                </table>
                 <br>
-                <label for="pass">Password : </label>
-                <input type="password" id="pass" name="pass" value="1234">
-                <br>
-                <input type="submit" value="Connexion">
                 <a href="register.html">Register</a>
+                <input type="submit" value="Connexion">
             </fieldset>
         </form>
+        <br>
         <a href="../index.html">Back to the real website</a>
     </body>
 </html>

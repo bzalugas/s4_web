@@ -67,10 +67,10 @@ body
 {
     background-color: rgb(210, 158, 113);
 }
-/* .main
+.main
 {
     background-image: url("img/snow.gif");
-} */
+}
 .secret
 {
     position: relative; left: -127px; top: 98px;
@@ -97,6 +97,25 @@ body
     padding-left: 30px;
     padding-right: 30px;
 }
+.fbord
+{
+    display: inline-block;
+    background-color: turquoise;
+    border: 2px black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 750px;
+}
+td:nth-child(1)
+{
+    text-align: right;
+}
+td
+{
+    text-align: left;
+}
 input
 {
     background-color: rgb(220,220,220);
@@ -104,4 +123,12 @@ input
 input:focus
 {
     background-color: whitesmoke;
+}
+table
+{
+    width: 100%;
+}
+td.register
+{
+    width: 50%;
 }

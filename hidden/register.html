@@ -6,93 +6,163 @@
         <title>Register</title>
     </head>
     <body>
-        <form method="post" action="formulaire.php">
-            <fieldset>
-                <legend>Personnal informations</legend>
-                <label for="nom">Last name : </label>
-                <input type="text" id="nom" name="nom" size="30" maxlength="30" placeholder="Ex. Descartes" autofocus required>
-                <br>
-                <label for="prenom">Name : </label>
-                <input type="text" id="prenom" name="prenom" size="27" maxlength="30" placeholder="Ex. René" required>
-                <br>
-                <label for="sexe">Sex : </label>
-                <select name="sexe" id="sexe">
-                    <option value="m" selected>M.</option>
-                    <option value="mme">Mme.</option>
-                    <option value="mlle">Mlle.</option>
-                </select>
-                <br>
-                <label for="mail">Mail adress: </label>
-                <input type="email" id="mail" name="mail" placeholder="Ex. rene.descartes@paris5.com" required>
-                <br>
-                <label for="mdp">Password : </label>
-                <input type="password" id="mdp" name="mdp" minlength="8" maxlength="30" required>
-            </fieldset>
-            <fieldset>
-                <legend>Level and skills</legend>
+        <div class="center">
+            <form method="post" action="formulaire.php">
+                <fieldset class="fbord">
+                    <legend>Personnal informations</legend>
+                    <table>
+                        <tr>
+                            <td class="register">
+                                <label for="nom">Last name : </label>
+                            </td>
+                            <td class="register">
+                                <input type="text" id="nom" name="nom" size="30" maxlength="30" placeholder="Ex. Descartes" autofocus required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                <label for="prenom">Name : </label>
+                            </td>
+                            <td class="register">
+                                <input type="text" id="prenom" name="prenom" size="30" maxlength="30" placeholder="Ex. René" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                <label for="sexe">Sex : </label>
+                            </td>
+                            <td class="register">
+                                <select name="sexe" id="sexe">
+                                    <option value="m" selected>M.</option>
+                                    <option value="mme">Mme.</option>
+                                    <option value="mlle">Mlle.</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                <label for="mail">Mail adress: </label>
+                            </td>
+                            <td class="register">
+                                <input type="email" id="mail" name="mail" size="30" placeholder="Ex. rene.descartes@paris5.com" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                <label for="mdp">Password : </label>
+                            </td>
+                            <td class="register">
+                                <input type="password" id="mdp" name="mdp" size="30" minlength="8" maxlength="30" required>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
 
-                <br>Level of HTML :<br>
-                <input type="radio" id="nul" name="niveau" value="nul" checked>
-                <label for="nul">Nul</label><br>
-                <input type="radio" id="moyen" name="niveau" value="moyen">
-                <label for="moyen">Moyen</label><br>
-                <input type="radio" id="bon" name="niveau" value="bon">
-                <label for="bon">Bon</label><br>
-                <input type="radio" id="tres_bon" name="niveau" value="tres bon">
-                <label for="tres_bon">Très bon</label><br>
-
-                <br>You have skills on : <br>
-                <input type="checkbox" id="c" name="competences" value="c">
-                <label for="c">C</label><br>
-                <input type="checkbox" id="c++" name="competences" value="c++">
-                <label for="c++">C++</label><br>
-                <input type="checkbox" id="java" name="competences" value="java">
-                <label for="java">Java</label><br>
-                <input type="checkbox" id="caml" name="competences" value="Caml">
-                <label for="caml">Caml</label><br>
-
-                <label for="autres">Other skills : </label>
+                <fieldset class="fbord">
+                    <legend>Level and skills</legend>
+                    <table>
+                        <tr>
+                            <td class="register">
+                                Level of HTML :
+                            </td>
+                            <td class="register">
+                                <input type="radio" id="nul" name="niveau" value="nul" checked>
+                                <label for="nul">Nul</label><br>
+                                <input type="radio" id="moyen" name="niveau" value="moyen">
+                                <label for="moyen">Moyen</label><br>
+                                <input type="radio" id="bon" name="niveau" value="bon">
+                                <label for="bon">Bon</label><br>
+                                <input type="radio" id="tres_bon" name="niveau" value="tres bon">
+                                <label for="tres_bon">Très bon</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                You have skills on :
+                            </td>
+                            <td class="register">
+                                <input type="checkbox" id="c" name="competences" value="c">
+                                <label for="c">C</label><br>
+                                <input type="checkbox" id="c++" name="competences" value="c++">
+                                <label for="c++">C++</label><br>
+                                <input type="checkbox" id="java" name="competences" value="java">
+                                <label for="java">Java</label><br>
+                                <input type="checkbox" id="caml" name="competences" value="Caml">
+                                <label for="caml">Caml</label><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="register">
+                                <label for="autres">Other skills : </label>
+                            </td>
+                            <td class="register">
+                                <textarea name="autres" id="autres" rows="10" cols="40"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset class="fbord">
+                    <legend>Miscellaneous</legend>
+                    <table>
+                        <tr>
+                            <td class="register">
+                                <label for="couleur">Favorite color : </label>
+                            </td>
+                            <td>
+                                <input type="color" id="couleur" name="couleur">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cv">Your CV : </label>
+                            </td>
+                            <td>
+                                <input type="file" id="cv" name="file">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="type">File type : </label>
+                            </td>
+                            <td>
+                                <input type="text" name="type" id="type" list="types" value="PDF">
+                            </td>
+                        </tr>
+                        <datalist id="types">
+                            <option value="DOC">
+                            <option value="DOCX">
+                            <option value="ODT">
+                            <option value="PDF">
+                            <option value="RTF">
+                            <option value="TXT">
+                        </datalist>
+                        <tr>
+                            <td>
+                                <label for="lang">Languages spoken : </label><br>
+                            </td>
+                            <td>
+                                <select name="lang" id="lang" multiple size="9">
+                                    <optgroup label="Modern languages">
+                                        <option value="fr">French</option>
+                                        <option value="esp">Spanish</option>
+                                        <option value="all">German</option>
+                                        <option value="it">Italian</option>
+                                        <option value="por">Portuguese</option>
+                                    </optgroup>
+                                    <optgroup label="Dead languages">
+                                        <option value="lat">Latin</option>
+                                        <option value="gr">Greek</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
                 <br>
-                <textarea name="autres" id="autres" rows="10" cols="40"></textarea>
-            </fieldset>
-            <fieldset>
-                <legend>Miscellaneous</legend>
-                <br>
-                <label for="couleur">Favorite color : </label>
-                <input type="color" id="couleur" name="couleur">
-                <br>
-                <label for="cv">Your CV : </label>
-                <input type="file" id="cv" name="file">
-                <br>
-                <label for="type">File type : </label>
-                <input type="text" name="type" id="type" list="types" value="PDF">
-                <datalist id="types">
-                    <option value="DOC">
-                    <option value="DOCX">
-                    <option value="ODT">
-                    <option value="PDF">
-                    <option value="RTF">
-                    <option value="TXT">
-                </datalist>
-                <br>
-                <label for="lang">Languages spoken : </label><br>
-                <select name="lang" id="lang" multiple size="9">
-                    <optgroup label="Modern languages">
-                        <option value="fr">French</option>
-                        <option value="esp">Spanish</option>
-                        <option value="all">German</option>
-                        <option value="it">Italian</option>
-                        <option value="por">Portuguese</option>
-                    </optgroup>
-                    <optgroup label="Dead languages">
-                        <option value="lat">Latin</option>
-                        <option value="gr">Greek</option>
-                    </optgroup>
-                </select>
-            </fieldset>
-            <input type="reset">
-            <input type="submit" value="Register">
-        </form>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Register">
+            </form>
+        </div>
         <a href="hidden.html">Go Back</a>
     </body>
 </html>
