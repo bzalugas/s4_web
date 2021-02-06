@@ -65,22 +65,37 @@ a:link
 }
 body
 {
-    background-color: turquoise;   
+    background-color: rgb(210, 158, 113);
 }
 .main
 {
-    background-color: whitesmoke;
+    background-image: url("img/snow.gif");
 }
 .secret
 {
     position: relative; left: -127px; top: 98px;
 }
-.bord
+.mainbord
 {
     background-color: turquoise;
     border: 2px black inset;
     border-radius: 20px;
-    box-shadow: 6px 6px 5px grey;
+    box-shadow: 5px 5px 5px black;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bord
+{
+    display: inline-block;
+    background-color: turquoise;
+    border: 2px black inset;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 input
 {
