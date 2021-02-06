@@ -47,6 +47,46 @@ p
 }
 mark
 {
-    background-color: white;
+    background-color: unset;
     font-style: italic;
+}
+a:hover
+{
+    font-weight: bold;
+    text-shadow: 2px 2px 2px grey;
+}
+a:link
+{
+    color: rgb(82,43,145);
+}
+[href="register.html"]
+{
+    font-size: small;
+}
+body
+{
+    background-color: turquoise;   
+}
+.main
+{
+    background-color: whitesmoke;
+}
+.secret
+{
+    position: relative; left: -127px; top: 98px;
+}
+.bord
+{
+    background-color: turquoise;
+    border: 2px black inset;
+    border-radius: 20px;
+    box-shadow: 6px 6px 5px grey;
+}
+input
+{
+    background-color: rgb(220,220,220);
+}
+input:focus
+{
+    background-color: whitesmoke;
 }
