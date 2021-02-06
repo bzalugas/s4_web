@@ -37,6 +37,10 @@ p
 {
     text-align: right;
 }
+.txt
+{
+    margin: 5px 10px 30px 10px;
+}
 .imgfloat
 {
     float: left;
