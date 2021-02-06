@@ -45,3 +45,8 @@ p
 {
     clear: both;
 }
+mark
+{
+    background-color: white;
+    font-style: italic;
+}
