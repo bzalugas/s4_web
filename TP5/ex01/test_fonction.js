@@ -15,11 +15,11 @@ function onSurface()
 }
 function onValidation()
 {
-    var c = confirm("Voulez-vous sauter dans le vide ?");
+    var c = confirm("Voulez-vous valider ?");
     if (c == true)
-        document.write("Vous avez sauté.");
+        document.write("Vous avez validé.");
     else
-        document.write("Vous n'avez pas sauté.");
+        document.write("Vous n'avez pas validé.");
 }
 
 function table(num)

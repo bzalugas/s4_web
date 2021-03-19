@@ -39,7 +39,6 @@ function tester_formulaire()
     var type = "Type de fichier : " + monFormulaire.file_type.value + "\n";
 	result += "\n\n" + competence + autre + couleur + fichier + type;
 	
-	// Affichage du résultat.
     if (monFormulaire.email2.value == monFormulaire.email.value)
 	    alert(result);
     else
