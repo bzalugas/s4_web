@@ -71,10 +71,6 @@ body
 {
     background-color: rgb(210, 158, 113);
 }
-.main
-{
-    background-image: url("img/snow.gif");
-}
 .secret
 {
     position: relative; left: -127px; top: 98px;
