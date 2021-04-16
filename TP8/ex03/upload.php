@@ -11,7 +11,7 @@ if (!empty($_FILES['fichier']['name']))
         $message = "Erreur lors du téléchargement : " . $file['error'];
     else if (!sizeIsGood())
         $message = "Fichier trop volumineux.";
-    else if (($file['type'] !== "application/pdf") && ((strpos($file['type'], "image") !== false)))
+    else if (($file['type'] === "application/pdf") || ((strpos($file['type'], "image") === 0)) === false)
         $message = "Type de fichier incorrect.";
     else if (move_uploaded_file($file['tmp_name'], 'upload/'.$file['name']) === false)
         $message = "Le fichier n'a pas pu etre copié sur le serveur.";
